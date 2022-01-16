@@ -1,0 +1,104 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: hsl(225, 100%, 98%);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: absolute;
+  background-color: #ffffff;
+  width: 420px;
+  height: 580px;
+  top: 10vh;
+  left: 35%;
+  border-radius: 10px;
+}
+.container__banner img {
+  width: 420px;
+  height: 200px;
+  border-radius: 10px 10px 0px 0px;
+}
+.summary {
+    align-items: center;
+}
+
+.summary h1 {
+  text-align: center;
+}
+
+.summary p {
+  font-size: 16px;
+  text-align: center;
+  margin-top: -10px;
+  inline-size: 280px;
+  margin-left: 80px;
+  color: #ccd1db;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+
+.container__plan {
+    margin-top: 20px;
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    height: 80px;
+    width: 380px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.container__plan img {
+    width: 50px;
+    height: 50px;
+    margin: 15px 10px;
+
+}
+
+.container__plan h5 {
+    position: relative;
+    left: 10px;
+    top: -8px;
+}
+
+.container__plan p {
+    position: relative;
+    top: 20px;
+    left: -60px;
+}
+
+
+.container__plan a {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 60px;  
+    color: blue; 
+}
+
+.container__plan a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.container__payment {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    padding: 1px;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-right: 18px;
+    margin-left: 18px;
+    text-align: center;
+
+}
+
+.cancel {
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+}
+
+
+
